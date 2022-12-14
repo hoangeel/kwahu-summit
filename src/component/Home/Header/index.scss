@@ -1,0 +1,559 @@
+.logo{
+  &:hover{
+    cursor: pointer;
+    opacity: 0.7;
+  }
+}
+.headerHome{
+  margin: 0px ;
+  padding: 13px 0px 15px;
+  .top{
+    .time{
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      color: #FFFFFF;
+    }
+    .country{
+      div{
+        margin-right: 12.41px;
+        img{
+          width: 100%;
+        }
+      }
+      p{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: right;
+        color: #59566F;
+        margin-bottom: 0px;
+      }
+      .spanEnglish{
+        img{
+          margin-left: 10px;
+          width: 8.36px;
+        }
+      }
+      .English{
+        margin-left: 16px;
+        background: none;
+        border: none;
+        padding: 0px;
+        .text{
+          color: #FFFFFF;
+          margin: 0px;
+        }
+      }
+      .dropdown-toggle::after {
+        display: none;
+      }
+      .menuCountry{
+        background: #FFFFFF;
+        border: 1px solid #9CA69C;
+        backdrop-filter: blur(17px);
+        border-radius: 5px;
+        z-index:100;
+      }
+    }
+    .user{
+      padding: 0px;
+      &:hover{
+        cursor: pointer;
+        opacity: 0.7;
+      }
+    }
+    .Face{
+      margin: 0px 25px;
+    }
+    .Tiwer{
+      margin-right: 25px;
+    }
+  }
+  .mid{
+    border-radius: 0px;
+    border: #FFFFFF 2px solid;
+    margin: 15px 0px;
+  }
+  .bottom{
+    .brCol{
+      width: 2px;
+      height: 90px;
+      border-radius: 0px;  
+      background: #FFFFFF;
+      margin: 0px 24px 0px 24px;
+    }
+    .Register{
+      margin-right: auto;
+      height: 43px;
+      width: 142px;     
+      background: none;
+      padding: 0px;
+      border: 2px solid #FFFFFF;
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+      &:hover{
+        cursor: pointer;
+        opacity: 0.7;
+      }
+    }
+    .homeLink{
+      margin-right: 32px;
+      margin-top: -10px;
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      color: #FFFFFF;
+      padding: 0px;
+      &:hover{
+        cursor: pointer;
+        opacity: 0.7;
+      }
+    }
+    .About{
+      .dropdown-toggle::after {
+        display: none;
+      }
+      .nav-item{
+        padding: 0px;
+      }
+      .aboutToggle{
+        &:hover{
+          cursor: pointer;
+          opacity: 0.7;
+        }
+        margin: -30px 0px 0px;
+        padding: 0px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        background: none;  
+        border: none;      
+      }
+      .menuAbout{
+        width: 166px;      
+        background: #FFFFFF;
+        border: 1px solid #9CA69C;
+        backdrop-filter: blur(17px);
+        border-radius: 5px;
+        .itemAbout{
+          padding: 0px 12px;
+          margin-bottom: 8px;
+          font-family: 'Gilroy';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 17px;
+          color: #123150;
+          p{
+            margin: 0px;
+          }
+        }
+      }
+    }
+    .Who{
+      margin: 0px 32px;
+    }
+    .Event{
+      margin: 0px 32px;
+    }
+    .Help{
+      margin-right: 0px;
+    }
+  }
+  .menu{
+    display: none;
+  }
+}
+.offcanvas.offcanvas-end{
+  width: 100%;
+}
+.offcanvas-body{
+  padding: 0px;
+}
+.mainMenu{
+  background: #123150;
+  padding: 19px 17px;
+  .HeaderMenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .logo{
+      margin-right: auto;
+      img{
+        width: 147.89px;
+        height: 55.58px;
+      }
+    }
+    .buttonMenu{
+      &:hover{
+        cursor: pointer;
+        opacity: 0.7;
+      }
+      img{
+        width: 42.72px;
+      }
+      .IconMenu4{
+        width: 21.94px;
+        margin-right: -22px;
+      }
+      .IconMenu5{
+        width: 21.94px;
+        margin-right: -32px;
+      }
+    }
+  }
+  .hrTop{
+    border: 2px solid #FFFFFF;
+    margin: 18.47px 0px 33.88px;
+  }
+  .hrBottom{
+    margin-bottom: 23px;
+  }
+  .home{
+    padding: 0px;
+    margin-bottom: 15px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    &:hover{
+      cursor: pointer;
+      opacity: 0.7;
+    }
+  }
+  .help{
+    margin: 32px 0px 46px;
+  }
+  .accordion{
+    .accordion-item{
+      background: none;
+      border: none;
+      .accordion-button{
+        background: none;
+        border: none;
+        padding: 0px;
+        margin-top: 32px;
+        margin-bottom: 8px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 38px;
+        color: #FFFFFF;
+        &:hover{
+          cursor: pointer;
+          opacity: 0.7;
+        }
+        button{
+          border: none;
+        }
+      }
+      .aboutHeader{
+        button{
+          margin-top: 15.43px;
+        }
+      }
+      .event{
+        button{
+          margin-top: 32px;
+          margin-bottom: 8px;
+        }
+      }
+      .accordion-button::after{
+        margin-left: 15px;
+        background: url("../../../assets/img/Arrow 5 (Stroke).png") no-repeat center;
+        background-size: 23.22px 13.19px;
+      }
+      .accordion-body{
+        padding: 0px;
+        .textmenu{
+          margin-bottom: 10px;
+          font-family: 'Gilroy';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+          color: #9CA69C; 
+          &:hover{
+            cursor: pointer;
+            opacity: 0.7;
+          }           
+        }  
+      }
+    }
+  }
+  .registerMenu{
+    width: 114.16px;
+    height: 34.97px;
+    border: 2px solid #FFFFFF;
+    padding: 0px;
+    background: none;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    &:hover{
+      cursor: pointer;
+      opacity: 0.7;
+    }
+  }
+  .country{
+    align-items: center;
+    div{
+      margin-right: 12.41px;
+      img{
+        margin-top: -3px;
+        width: 16px;
+      }
+    }
+    p{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      text-align: right;
+      color: #59566F;
+      margin-bottom: 0px;
+    }
+    .spanEnglish{
+      img{
+        margin-left: 10px;
+        width: 10.55px;
+      }
+    }
+    .English{
+      background: none;
+      border: none;
+      padding: 0px;
+      .text{
+        color: #FFFFFF;
+        margin: 0px;
+      }
+    }
+    .dropdown-toggle::after {
+      display: none;
+    }
+    .menuCountry{
+      background: #FFFFFF;
+      border: 1px solid #9CA69C;
+      backdrop-filter: blur(17px);
+      border-radius: 5px;
+      z-index:100;
+    }
+  }
+  .user{
+    padding: 0px;
+    &:hover{
+      cursor: pointer;
+      opacity: 0.7;
+    }
+    img{
+      width: 16px;
+    }
+    &:hover{
+      cursor: pointer;
+      opacity: 0.7;
+    }
+  }
+  .Face{
+    margin: 0px 25px;
+  }
+  .Tiwer{
+    margin-right: 25px;
+  }
+  .itemInstagram{
+    margin-left: auto;
+  }
+}
+
+@media(max-width: 1400px){
+  .headerHome{
+    .bottom{
+      .brCol{
+        width: 2px;
+        height: 90px;
+        margin: 0px 20px 0px 0px;
+      }
+      .Register{
+        height: 43px;
+        width: 120px;     
+        padding: 0px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+      }
+      .homeLink{
+        margin-right: 20px;
+        margin-top: -10px;
+        font-size: 14px;
+        line-height: 19px;
+      }
+      .About{
+        .aboutToggle{
+          margin: -30px 0px 0px;
+          font-size: 14px;
+          line-height: 19px;     
+        }
+        .menuAbout{
+          .itemAbout{
+            padding: 0px 12px;
+            margin-bottom: 8px;
+            font-size: 14px;
+            line-height: 17px;
+          }
+        }
+      }
+      .Who{
+        margin: 0px 20px;
+      }
+      .Event{
+        margin: 0px 20px;
+      }
+    }
+  }
+}
+@media(max-width: 992px){
+  .headerHome{
+    .top{
+      .time{
+        font-size: 14px;
+        line-height: 17px;
+      }
+      .country{
+        div{
+          margin-right: 12.41px;
+        }
+        p{
+          font-size: 16px;
+        }
+        .English{
+          margin-left: 16px;
+        }
+      }
+      .Face{
+        margin: 0px 25px;
+      }
+      .Tiwer{
+        margin-right: 25px;
+      }
+    }
+    .mid{
+      margin: 5px 0px;
+    }
+    .bottom{
+      .logo{
+        img{
+          width: 147.89px;
+        }
+      }
+      .brCol{
+        width: 2px;
+        height: 80px;
+        margin: 0px 10px 0px 0px;
+      }
+      .Register{
+        height: 35px;
+        width: 90px;     
+        padding: 0px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+      }
+      .homeLink{
+        margin-right: 10px;
+        margin-top: -10px;
+        font-size: 12px;
+        line-height: 19px;
+      }
+      .About{
+        .aboutToggle{
+          margin: -30px 0px 0px;
+          font-size: 12px;
+          line-height: 19px;     
+        }
+        .menuAbout{
+          .itemAbout{
+            padding: 0px 12px;
+            margin-bottom: 8px;
+            font-size: 12px;
+            line-height: 17px;
+          }
+        }
+      }
+      .Who{
+        margin: 0px 10px;
+      }
+      .Event{
+        margin: 0px 10px;
+      }
+      .Help{
+        margin-right: 0px;
+      }
+    }
+  }
+}
+@media(max-width: 767px){
+  .headerHome{
+    .top{
+      display: none;
+    }
+    .mid{
+      display: none;
+    }
+    .bottom{
+      display: none;
+    }
+    .menu{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .logo{
+        margin-right: auto;
+        img{
+          width: 147.89px;
+          height: 55.58px;
+        }
+      }
+      .buttonMenu{
+        &:hover{
+          cursor: pointer;
+          opacity: 0.7;
+        }
+        img{
+          width: 42.72px;
+        }
+        .IconMenu1{
+          width: 21.94px;
+          margin-right: -22px;
+          margin-top: -15px;
+        }
+        .IconMenu2{
+          width: 21.94px;
+          margin-right: -22px;
+        }
+        .IconMenu3{
+          width: 21.94px;
+          margin-right: -33px;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}

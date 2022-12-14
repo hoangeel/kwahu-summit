@@ -1,0 +1,102 @@
+.invited{
+  padding: 60px 0px 18.45px;
+  .titleInvited{
+    margin-bottom: 33.24px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #123150;
+    text-align: center;
+  }
+  .col{
+    padding: 0px;
+    width: 320px;
+    .card{
+      margin: 0px auto 21.28px;
+      max-width: 320.46px;
+      border: none;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      div{
+        img{
+          width: 320px;
+        }
+      }
+      .card-body{
+        padding: 13px 10px 25.35px;
+        h1{
+          margin-bottom: 0px;
+          font-family: 'Oswald';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 36px;
+          text-transform: uppercase;
+          color: #123150;
+        }
+        p{
+          margin-bottom: 0px;
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          letter-spacing: 0.03em;
+          color: #9CA69C;        
+        }
+      }
+    }
+    .height{
+      min-height: 560px;
+    }
+    .heightNotable{
+      .card-body{
+        padding-bottom: 5px;
+      }
+    }
+  }
+  .see{
+    display: block;
+    margin-left: auto;
+    margin-top: 10px;
+    width: 320px;
+    height: 58.22px;
+    border: 3px solid #00A139;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    color: #00A139;
+    padding: 0px;
+    background: none;
+    &:hover{
+      cursor: pointer;
+      opacity: 0.7;
+    }
+  }
+}
+@media(max-width: 767px){
+  .invited{
+    .see{
+      margin-right: auto;
+    }
+  }
+}
+@media(max-width: 400px){
+  .invited{
+    .titleInvited{
+      font-size: 26px;
+    }
+    .see{
+      width: 250px;
+    }
+  }
+}

@@ -1,0 +1,93 @@
+@font-face {
+  font-family:Gilroy;
+  src:url('../../assets/font/Gilroy-ExtraBold.otf') format('truetype'),
+  url('../../assets/font/Gilroy-Light.otf') format('embedded-opentype'),
+  url('../../assets/font/Gilroy-Light.otf') format('woff');
+  font-weight:normal;
+  font-style:normal;
+ }
+.container{
+  margin: 0px auto;
+  padding: 0px;
+}
+.mainHome{
+  overflow: hidden;
+  background: #F4F4FB;
+  background: url("../../assets/img/Third.png") no-repeat;
+  background-size: 100%;
+  .mainHeader{
+    display: flex;
+    justify-content: center;
+    .flex{
+      position: absolute;
+      top: 0px;
+    }
+  }
+  .corouselHeader{
+    .carousel-indicators{
+      display: none;
+    }
+    .carousel-inner{
+      img{
+        width: 100%;
+      }
+      .carousel-caption{
+        text-align: left;
+      }
+    }
+    .carousel-control-prev{
+      display: none;
+    }
+    .carousel-control-next{
+      display: none;
+    }
+  }
+}
+.backgroundHeader{
+  display: none;
+  background: url("../../assets/img/Rectangle 11.png") no-repeat;
+  background-size: 100%;
+}
+.backgroundFooter{
+  background: #123150;
+}
+
+@media(min-width: 590px){
+  .imgNone{
+    display: none;
+  }
+}
+@media(max-width: 767px){
+  .container{
+    padding: 0px 20px;
+  }
+}
+@media(max-width: 590px){
+  .backgroundHeader{
+    background: url("../../assets/img/Rectangle 11 (3).png") no-repeat;
+    background-size: 100% ;
+  }
+  .img{
+    display: none;
+  }
+  .imgNone{
+    display: block;
+  }
+  .corouselHeader{
+    .carousel-indicators{
+      display: none;
+    }
+    .carousel-inner{
+      img{
+        width: 100%;
+      }
+      .carousel-caption{
+        text-align: left;
+        width: 383px;
+        margin-left: -40px;
+        position: absolute;
+        bottom: 84.66px;
+      }
+    }
+  }
+}

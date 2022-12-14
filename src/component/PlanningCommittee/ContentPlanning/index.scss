@@ -1,0 +1,146 @@
+.ContentPlanning{
+  .title{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #123150;
+    margin-bottom: 29.66px;
+  }
+  .text{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 200%;
+    text-align: center;
+    color: #59566F;
+    margin-bottom: 33.88px;
+  }
+  .end{
+    margin: 46.52px 0px 51.11px;
+  }
+  .col{
+    padding: 0px 10px;
+  }
+  .card{
+    &:hover{
+      cursor: pointer;
+      opacity: 0.7;
+    }
+    margin:0px auto 20px;
+    padding: 40px 20px 30px;
+    isolation: isolate;
+    width: 437px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    border: none;
+    .card-body{
+      padding: 0px;
+      div{
+        margin-bottom: 20.55px;
+        img{
+          width: 146px;
+          height: 146px;
+        }
+      }
+      h1{
+        margin-bottom: 0px;
+        max-width: 397px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 170%;
+        text-transform: uppercase;
+        color: #123150;
+      }
+    }
+  }
+  .UNDP{
+    height: 322px;
+  }
+  .Advisory{
+    display: none;
+  }
+}
+
+@media(max-width: 1400px){
+  .ContentPlanning{
+    .card{
+      max-width: 100%;
+    }
+    .card1400{
+      height: 322px;
+    }
+  }
+}
+@media(max-width: 1200px){
+  .ContentPlanning{
+    .card{
+      max-width: 100%;
+    }
+    .card1200{
+      height: 280px;
+    }
+  }
+}
+@media(max-width: 992px){
+  .ContentPlanning{
+    .card{
+      .card-body{
+        h1{
+          font-size: 20px;
+        }
+      }
+    }
+    .card1400{
+      height: 304.55px;
+    }
+    .card1200{
+      height: 270.55px;
+    }
+  }
+}
+@media(max-width: 767px){
+  .ContentPlanning{
+    padding: 34.44px 0px 27.98px;
+    .title{
+      margin-bottom: 16.83px;
+    }
+    .text{
+      margin-bottom: 34.38px;
+    }
+    .end{
+      margin: 30px 0px;
+    }
+    .col{
+      padding: 0px 20px;
+    }
+    .card{
+      .card-body{
+        h1{
+          font-size: 26px;
+        }
+      }
+    }
+    .card1400{
+      height: 280px;
+    }
+    .card1200{
+      height: 280px;
+    }
+    .Advisory{
+      display: inline;
+      .card{
+        height: 280px;
+      }
+    }
+    .United{
+      height: 322px;
+    }
+  }
+}

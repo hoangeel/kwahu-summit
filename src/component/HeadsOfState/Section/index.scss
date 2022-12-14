@@ -1,0 +1,149 @@
+.SectionHeadsOfState{
+  padding: 180px 0px 80px ;
+  .left{
+    .hrLeft{
+      width: 793px;
+    }
+    .Register{
+      display: none;
+    }
+  }
+  .right{
+    right: -220px;
+    top: 285px;
+    .hrRight{
+      width: 111.91px;
+    }
+  }
+}
+
+@media(max-width: 1400px){
+  .SectionHeadsOfState{
+    padding: 50px 0px 50px ;
+    .left{
+      .hrLeft{
+        width: 650px;
+      }
+    }
+    .right{
+      right: -220px;
+      top: 185px;
+      p{
+        font-size: 14px;
+      }
+      .hrRight{
+        width: 111.91px;
+        height: 2px;
+        margin-top: 8px;
+      }
+    }
+  }
+}
+@media(max-width: 1200px){
+  .SectionHeadsOfState{
+    padding: 30px 0px 50px ;
+    .left{
+      .hrLeft{
+        width: 500px;
+      }
+    }
+  }
+}
+@media(max-width: 992px){
+  .SectionHeadsOfState{
+    padding: 10px 0px 20px ;
+    .left{
+      .hrLeft{
+        margin-top: 12px;
+        width: 350px;
+        margin-top: 15px;
+      }
+    }
+    .right{
+      right: -100px;
+      top: 150px;
+      p{
+        font-size: 10px;
+      }
+    }
+  }
+}
+@media(max-width: 767px){
+  .SectionHeadsOfState{
+    padding: 20px 0px 20px ;
+    .left{
+      .hrLeft{
+        display: inline;
+        width: 60%;
+        margin-top: 15px;
+      }
+    }
+    .right{
+      right: -100px;
+      top: 180px;
+      p{
+        font-size: 10px;
+      }
+      .hrRight{
+        width: 111.91px;
+        height: 2px;
+        margin-top: 8px;
+      }
+    }
+  }
+}
+@media(max-width: 590px){
+  .SectionHeadsOfState{
+    padding: 0px 0px 0px ;
+    .left{
+      p{
+        margin-right: 10px;
+      }
+      .hrLeft{
+        width: 250px;
+      }
+      .Register{
+        display: inline;
+        width: 207px;
+        height: 63.41px;
+        font-size: 20px;
+      }
+    }
+    .right{
+      right: -150px;
+      top: 280px;
+      p{
+        font-size: 10px;
+      }
+      .hrRight{
+        width: 111.91px;
+        height: 2px;
+        margin-top: 8px;
+      }
+    }
+  }
+}
+
+@media(max-width: 420px){
+  .SectionHeadsOfState{
+    padding: 0px 20px 0px ;
+    .left{
+      h1{
+        font-size: 24px;
+        line-height: 130%;
+      }
+      h2{
+        font-size: 24px;
+        line-height: 130%;
+      }
+      p{
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 29px;
+      }
+      .hrLeft{
+        width: 150px;
+      }
+    }
+  }
+}

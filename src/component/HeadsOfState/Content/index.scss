@@ -1,0 +1,55 @@
+.invited{
+  padding-bottom: 100px;
+  .textTop{
+    max-width: 1099.43px;;
+    margin: 0px auto 52.16px ;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #59566F;
+  }
+  .textBottom{
+    margin-bottom: 33.24px;
+  }
+  .col{
+    .Umaro{
+      margin: 0px 7px 21px;
+    }
+    .Mahamadou{
+      margin-left: -330px;
+    }
+  }
+}
+@media(max-width: 1400px){
+  .invited{
+    .col{
+      .Umaro{
+        margin: 0px auto 21px;
+      }
+      .Mahamadou{
+        margin-left: 33px;
+      }
+    }
+  }
+}
+@media(max-width: 1200px){
+  .invited{
+    .col{
+      .Mahamadou{
+        margin-left: 4px;
+      }
+    }
+  }
+}
+@media(max-width: 1200px){
+  .invited{
+    .col{
+      .Mahamadou{
+        margin-left: auto;
+      }
+    }
+  }
+}

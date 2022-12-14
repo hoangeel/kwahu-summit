@@ -1,0 +1,153 @@
+.News{
+  .titleNews{
+    margin-top: 0px;
+  }
+  .content{
+    h4{
+      margin: 21px 0px 17px;
+      font-family: 'Oswald';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 162%;
+      text-transform: uppercase;
+      color: #123150;
+    }
+    h5{
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #59566F;
+      margin-bottom: 0px;
+    }
+    h6{
+      margin-right: 14.26px;
+      margin-bottom: 0px;
+      height: 16.18px;
+      width: 4px;
+      border: 2px solid #00A139;
+      background: #00A139;
+    }
+  }
+  .groupView{
+    &:hover{
+      cursor: pointer;
+      opacity: 0.7;
+    }
+    .View{
+      margin: 2.4px 18.25px 0px auto;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.03em;
+      color: #00A139;
+    }
+    span{
+      margin-right: 22%;
+    }
+  }
+}
+@media(max-width: 1400px){
+  .News{
+    .content{
+      h4{
+        margin: 21px 0px 17px;
+        font-size: 18px;
+        line-height: 162%;
+      }
+    }
+    .groupView{
+      span{
+        margin-right: 0px;
+      }
+    }
+  }
+}
+@media(max-width: 992px){
+  .News{
+    .content{
+      h4{
+        margin: 21px 0px 17px;
+        font-size: 16px;
+        line-height: 162%;
+      }
+      h5{
+        font-size: 14px;
+        line-height: 19px;
+      }
+      h6{
+        height: 16.18px;
+        width: 4px;
+      }
+    }
+    .groupView{
+      .View{
+        margin: 2.4px 18.25px 0px auto;
+        font-size: 14px;
+        line-height: 150%;
+      }
+    }
+  }
+}
+@media(max-width: 767px){
+  .News{
+    .titleNews{
+      margin-top: 0px;
+    }
+    .content{
+      h4{
+        font-size: 20px;
+      }
+      h5{
+        font-size: 16px;
+        margin-bottom: 21px;
+      }
+      h6{
+        margin-right: 14.26px;
+        margin-bottom: 0px;
+        height: 16.18px;
+        width: 4px;
+      }
+    }
+    .groupView{
+      .View{
+        margin: 2.4px 18.25px 0px 0px;
+        font-size: 16px;
+    
+      }
+    }
+  }
+}
+@media(max-width: 400px){
+  .News{
+    .titleNews{
+      margin-top: 0px;
+    }
+    .content{
+      h4{
+        font-size: 16px;
+      }
+      h5{
+        font-size: 12px;
+        margin-bottom: 21px;
+      }
+      h6{
+        margin-right: 14.26px;
+        margin-bottom: 0px;
+        height: 16.18px;
+        width: 4px;
+      }
+    }
+    .groupView{
+      .View{
+        margin: 2.4px 18.25px 0px 0px;
+        font-size: 14px;
+    
+      }
+    }
+  }
+}
