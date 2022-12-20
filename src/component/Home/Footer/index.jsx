@@ -7,11 +7,6 @@ import Logo from "assets/img/Mask group (1).png"
 import Instagram from "assets/img/Vector (10).png"
 import Face from "assets/img/Vector (11).png"
 import Tiwer from "assets/img/Vector (12).png"
-import Diamond1 from "assets/img/SPONSORS LOGOS 2.png"
-import Diamond2 from "assets/img/SPONSORS LOGOS 3.png"
-import Diamond3 from "assets/img/SPONSORS LOGOS 4.png"
-import Diamond4 from "assets/img/Group 1000004476.png"
-import Diamond5 from "assets/img/Group 1000004477.png"
 
 
 
@@ -19,6 +14,18 @@ export default function Footer() {
   const navigate = useNavigate();
   const HomehandleClick = () => {
     navigate('/', {replace: true});
+  };
+  const AbouthandleClick = () => {
+    navigate('/about', {replace: true});
+  };
+  const InvitedHeadsOfStateClick = () => {
+    navigate('/invited-heads-of-state', {replace: true});
+  };
+  const InvitedPersonalitiesClick = () => {
+    navigate('/invited-personalities', {replace: true});
+  };
+  const TheHostClick = () => {
+    navigate('/the-host', {replace: true});
   };
   return ( 
     <div className='FooterHome'>
@@ -38,16 +45,16 @@ export default function Footer() {
         <Col xxl="9" xl="12">
           <Row>
             <Col lg="2" xs="6">
-              <div className='th'>About</div>
-              <div className='td'>The Host </div>
+              <div className='th'onClick={AbouthandleClick}>About</div>
+              <div className='td' onClick={TheHostClick}>The Host </div>
               <div className='td'>Partners </div>
               <div className='td'>The Summit</div>
             </Col>
             <Col lg="3" xs="6">
               <div className='th'>Who is attending</div>
               <div className='td'>Captains of Industry</div>
-              <div className='td'>Heads of State</div>
-              <div className='td'>Notable Personalities</div>
+              <div className='td'onClick={InvitedHeadsOfStateClick}>Heads of State</div>
+              <div className='td'onClick={InvitedPersonalitiesClick}>Notable Personalities</div>
             </Col>
             <Col lg="3" xs="6">
               <div className='th Resourses'>Resourses</div>

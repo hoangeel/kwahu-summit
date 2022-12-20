@@ -7,12 +7,10 @@ import Abdel from "assets/img/image 235.png"
 import Aziz from "assets/img/image 241.png"
 import Mohamed from "assets/img/image 247.png"
 import Muhammadu from "assets/img/image 252.png"
-
 import Cyril from "assets/img/image 242.png"
 import Denis from "assets/img/image 248.png"
 import Yoweri from "assets/img/image 253.png"
 import Evariste from "assets/img/image 236.png"
-
 import Faure from "assets/img/image 238.png"
 import Felix from "assets/img/image 250.png"
 import Hakainde from "assets/img/image 255.png"

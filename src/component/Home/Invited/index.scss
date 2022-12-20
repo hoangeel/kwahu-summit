@@ -54,6 +54,9 @@
     .height{
       min-height: 560px;
     }
+    .Faure{
+      min-height: 560px;
+    }
     .heightNotable{
       .card-body{
         padding-bottom: 5px;
@@ -83,10 +86,42 @@
     }
   }
 }
+@media(max-width: 1400px){
+  .invited{
+    .content{
+      .col{
+        .Faure{
+          min-height: 514.7px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 992px){
+  .invited{
+    .content{
+      .col{
+        .Faure{
+          min-height: 560px;
+        }
+      }
+    }
+  }
+}
 @media(max-width: 767px){
   .invited{
     .see{
       margin-right: auto;
+    }
+    .content{
+      .col{
+        .height{
+          min-height: 514.7px;
+        }
+        .Faure{
+          min-height: 514.7px;
+        }
+      }
     }
   }
 }

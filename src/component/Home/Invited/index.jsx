@@ -63,7 +63,7 @@ export default function Invited() {
       text: "President of Burundi",
     },
     {
-      class: "height",
+      class: " Faure",
       src: Faure,
       name: "H.E. Faure Gnassingbe",
       text: "President of Togo",
